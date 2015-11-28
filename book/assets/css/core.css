@@ -1,0 +1,153 @@
+body {
+    padding-top: 20px;
+    background: url("../img/bg/baguio-blurred.jpg") center center no-repeat #364415 fixed;
+    background-size: cover;
+}
+
+/* Custom containers */
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding:20px;
+    background-color:#fff;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.8);
+}
+#banner{
+
+}
+.container > hr {
+    margin: 60px 0;
+}
+.footer{
+    background-color:#111;
+    padding:5px 0px 20px 0px;
+    color:#999;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5)
+}
+/*Header*/
+#logo{
+    padding-bottom: 20px;
+}
+h3{
+    color:#669900;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.6);
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 40px 0;
+    text-align: center;
+    background-image: url("../img/featured/jumbotron2.png");
+    background-size:cover;
+    height:300px;
+    color:#fff;
+    text-shadow: 1px 1px 4px #000;
+}
+.jumbotron h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+.jumbotron .lead {
+    font-size: 24px;
+    line-height: 1.25;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+/*Customization*/
+
+.btn-blue{
+    color:#fff;
+    background:#09c;
+    text-shadow:-1px -1px 1px rgba(0,0,0,0.3);
+}
+.btn-blue:hover{
+    color:#fff;
+    background:#08b;
+    text-shadow:-1px -1px 1px #222;
+}
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+    padding: 0;
+    border-radius: 0px;
+    box-shadow:none;
+}
+.navbar .navbar-inner .container-fluid{
+    background-color:#99cc00;
+}
+.navbar, navbar .nav{
+    background-color:#99cc00;
+}
+.navbar .nav {
+    margin: 0;
+}
+
+.navbar .nav  li  a {
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,.3);
+    background-color:#99cc00;
+    color:#000;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgba(255,255,255,0.2);
+}
+.navbar .nav > .active > a:hover,.navbar .nav > .active > a{
+    box-shadow: none;
+    background-color:#669900;
+    color:#fff;
+    text-shadow: none;
+
+}
+
+div > a.span3{
+    text-decoration:none;
+}
+.footer{
+    background: rgba(0,0,0,0.8);
+}
+.container-footer{
+    background-color: transparent;
+    box-shadow: none;
+}
+.container-footer  li{
+    list-style-type: disc;
+}
+.footer-menu, .footer-packages{
+    text-align: left;
+}
+.container-footer h5{
+    text-align: left !important;
+}
+.footer-menu a, .footer-packages a{
+    text-align:left;
+    color:#666;
+    margin:0;
+}
+nav > ul> li{
+    display:inline;
+    text-decoration: none;
+}
+hr{
+    border-top:1px solid #fff;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.bg-black{
+    background-color:#000;
+    background: rgba(0,0,0,0.9);
+}
+#terms-1,#terms-2,#terms-3,#contact-container,.tours-container,.bg-black p, bg-black li{color:#fff;}
+
+#contact-container legend{color:#09c;}
+h2{color:#669900;}
+.jumbotron h2{color:#FFF;}
